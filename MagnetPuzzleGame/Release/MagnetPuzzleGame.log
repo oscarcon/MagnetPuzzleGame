@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(288,9): warning C4101:  'c': unreferenced local variable
+  Generating code
+  0 of 24 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  MagnetPuzzleGame.vcxproj -> C:\Users\quang\source\repos\MagnetPuzzleGame\Release\MagnetPuzzleGame.exe

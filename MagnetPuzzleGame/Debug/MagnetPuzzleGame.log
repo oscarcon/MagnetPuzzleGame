@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(288,9): warning C4101:  'c': unreferenced local variable
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(288,9): warning C4101: C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(79) : error C4700: uninitialized local variable 'str' used
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(288,9): warning C4101: C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(100) : error C4700: uninitialized local variable 'str' used
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(429,5): error MSB6006: "CL.exe" exited with code 2.
