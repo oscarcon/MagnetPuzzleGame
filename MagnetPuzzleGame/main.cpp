@@ -131,6 +131,8 @@ bool mouse_over(SDL_Rect* rect) {
 	return false;
 }
 
+
+
 int main(int argc, char** agrv) {
 	SDL_Surface* start_img = IMG_Load("img/start.png");
 	SDL_Surface* custom_img = IMG_Load("img/custom.png");
@@ -148,6 +150,7 @@ int main(int argc, char** agrv) {
 	SDL_Rect check_rect = { 300, 80, 100, 100 };
 
 	int magnets[M][N] = { EMPTY };
+
 	SDL_Rect menu[3];
 	menu[0] = { 0, 0, start_img->w, start_img->h };
 	menu[1] = { 0, menu[0].y + menu[0].h + 10, menu[0].w, menu[0].h };
@@ -297,7 +300,12 @@ int main(int argc, char** agrv) {
 					if (e.key.keysym.sym == SDLK_s) {
 						std::cout << "Sovling" << std::endl;
 						clear_solution(magnets);
-						solve_problem(&puz, magnets, 0, 0);
+						if (solve_problem(&puz, magnets, 0, 0)) {
+							printf("Found a solution!\n");
+						}
+						else {
+							printf("Solution not found!\n");
+						}
 						UpdateMagnet(screenSurface, magnets, board);
 						SDL_UpdateWindowSurface(window);
 					}

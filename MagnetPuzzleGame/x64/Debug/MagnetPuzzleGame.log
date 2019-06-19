@@ -1,19 +1,19 @@
 ﻿  main.cpp
 C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(70,99): warning C4459:  declaration of 'puz' hides global declaration
 C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(15,8): message :  see declaration of 'puz'
-C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(287,15): warning C4456:  declaration of 'e' hides previous local declaration
-C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(161,12): message :  see declaration of 'e'
-C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(309,18): warning C4456:  declaration of 'c' hides previous local declaration
-C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(289,9): message :  see declaration of 'c'
-C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(134,27): warning C4100:  'agrv': unreferenced formal parameter
-C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(134,14): warning C4100:  'argc': unreferenced formal parameter
-C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(144,15): warning C4189:  'img_neg_rotated': local variable is initialized but not referenced
-C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(141,15): warning C4189:  'img_pos': local variable is initialized but not referenced
-C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(142,15): warning C4189:  'img_pos_rotated': local variable is initialized but not referenced
-C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(168,6): warning C4189:  'index': local variable is initialized but not referenced
-C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(140,15): warning C4189:  'img_rotated': local variable is initialized but not referenced
-C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(139,15): warning C4189:  'img': local variable is initialized but not referenced
-C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(159,15): warning C4189:  'gTexture': local variable is initialized but not referenced
-C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(143,15): warning C4189:  'img_neg': local variable is initialized but not referenced
-C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(289,9): warning C4101:  'c': unreferenced local variable
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(290,15): warning C4456:  declaration of 'e' hides previous local declaration
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(164,12): message :  see declaration of 'e'
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(317,18): warning C4456:  declaration of 'c' hides previous local declaration
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(292,9): message :  see declaration of 'c'
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(136,27): warning C4100:  'agrv': unreferenced formal parameter
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(136,14): warning C4100:  'argc': unreferenced formal parameter
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(146,15): warning C4189:  'img_neg_rotated': local variable is initialized but not referenced
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(143,15): warning C4189:  'img_pos': local variable is initialized but not referenced
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(144,15): warning C4189:  'img_pos_rotated': local variable is initialized but not referenced
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(171,6): warning C4189:  'index': local variable is initialized but not referenced
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(142,15): warning C4189:  'img_rotated': local variable is initialized but not referenced
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(141,15): warning C4189:  'img': local variable is initialized but not referenced
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(162,15): warning C4189:  'gTexture': local variable is initialized but not referenced
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(145,15): warning C4189:  'img_neg': local variable is initialized but not referenced
+C:\Users\quang\source\repos\MagnetPuzzleGame\MagnetPuzzleGame\main.cpp(292,9): warning C4101:  'c': unreferenced local variable
   MagnetPuzzleGame.vcxproj -> C:\Users\quang\source\repos\MagnetPuzzleGame\x64\Debug\MagnetPuzzleGame.exe

@@ -8,14 +8,14 @@
 #define NEG 	'-'
 #define EMPTY	' '
 
-const int M = 5, N = 6;
-
 typedef struct {
 	int x;
 	int y;
 	int pole;
 } cell;
 
+
+const int M = 2, N = 4;
 struct puzzle {
 	int top[N];
 	int left[M];
@@ -23,18 +23,37 @@ struct puzzle {
 	int right[M];
 	int rules[M][N];
 } puzzle_default = {
-	{ 1, -1, -1, 2, 1, -1 },
-	{ 2, 3, -1, -1, -1 },
-	{ 2, -1, -1, 2, -1, 3 },
-	{ -1, -1, -1, 1, -1 },
-	{
-		{ L, R, L, R, T, T },
-		{ L, R, L, R, B, B },
-		{ T, T, T, T, L, R },
-		{ B, B, B, B, T, T },
-		{ L, R, L, R, B, B }
-	}
+   {1, -1, -1, -1},
+   {1, 1},
+   {-1, -1, 1, -1},
+   {2, -1},
+   {
+	   {L, R, T, T},
+	   {L, R, B, B}
+   }
 };
+
+//const int M = 5, N = 6;
+//struct puzzle {
+//	int top[N];
+//	int left[M];
+//	int bottom[N];
+//	int right[M];
+//	int rules[M][N];
+//} puzzle_default = {
+//	{ 1, -1, -1, 2, 1, -1 },
+//	{ 2, 3, -1, -1, -1 },
+//	{ 2, -1, -1, 2, -1, 3 },
+//	{ -1, -1, -1, 1, -1 },
+//	{
+//		{ L, R, L, R, T, T },
+//		{ L, R, L, R, B, B },
+//		{ T, T, T, T, L, R },
+//		{ B, B, B, B, T, T },
+//		{ L, R, L, R, B, B }
+//	}
+//};
+
 typedef struct puzzle puzzle;
 
 //int magnets[M][N] = {
